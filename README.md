@@ -3,13 +3,13 @@
 > 2.npm run dev
 
 
-## To run client -
+# To run client -
 > 1.npm install
 > 2.Add mongoURI
 > 3.npm run dev
 
-### Backend (Node.js + Express)
-# Dependencies
+# Backend (Node.js + Express)
+## Dependencies
 
 > bcryptjs: For hashing passwords.
 cookie-parser: Parsing cookies.
@@ -25,7 +25,7 @@ nodemon: Auto-restart on file changes (development).
 /login: POST request for user login, generating JWT.
 /logout: GET request for user logout (clearing cookies).
 
-#### Todo CRUD (todo.js)
+## Todo CRUD (todo.js)
 
 /todos: GET request to fetch all todos.
 /todo/:id: GET request to fetch a specific todo.
@@ -33,8 +33,8 @@ nodemon: Auto-restart on file changes (development).
 /update/:id: PUT request to update an existing todo.
 /delete/:id: DELETE request to delete a todo.
 
-Frontend (React)
-# Dependencies
+#Frontend (React)
+## Dependencies
 
 @reduxjs/toolkit: Redux state management.
 react: Core React library.
@@ -50,13 +50,13 @@ swiper: Optional, for carousel or slider features.
 LoginPage.js: Form for login with Redux actions.
 RegisterPage.js: Form for registration with Redux actions.
 PrivateRoute.js: Higher-order component for authenticated routes.
-### Todo Management
+## Todo Management
 
 TodoList.js: Fetches todos from backend using Redux.
 TodoItem.js: Displays each todo item with options to edit or delete.
 AddTodoForm.js: Form for adding new todos.
 EditTodoForm.js: Form for editing existing todos.
-#### Redux State Management
+## Redux State Management
 
 actions/: Redux action creators (e.g., authActions.js, todoActions.js).
 reducers/: Redux reducers managing state changes.
