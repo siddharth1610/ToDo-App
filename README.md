@@ -1,17 +1,17 @@
 # To run API folder - 
-1.npm install
-2.npm run dev
+> 1.npm install
+> 2.npm run dev
 
 
 ## To run client -
-1.npm install
-2.Add mongoURI
-3.npm run dev
+> 1.npm install
+> 2.Add mongoURI
+> 3.npm run dev
 
 ### Backend (Node.js + Express)
 # Dependencies
 
-bcryptjs: For hashing passwords.
+> bcryptjs: For hashing passwords.
 cookie-parser: Parsing cookies.
 dotenv: Environment variables.
 express: Web server framework.
